@@ -2,6 +2,7 @@ extends layout
 
 block content
   h1= title
+  a(href="/new") New Message
   if messages
     each message in messages
       .message

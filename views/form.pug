@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  h1= title
+  form(action="/new", method="post")
+    .form-element
+      label(class="form-label" for="user") User:
+      input(type="text", name="user", id="user")
+    .form-element  
+      label(class="form-label" for="text") Message:
+      input(type="text", name="text", id="text")
+    .form-element  
+      button(type="submit") Submit

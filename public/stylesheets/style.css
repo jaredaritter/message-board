@@ -7,6 +7,14 @@ a {
   color: #00b7ff;
 }
 
+.form-element {
+  margin: 5px;
+}
+
+.form-label {
+  margin-right: 5px;
+}
+
 .message {
   border-left: 1px solid lightgrey;
   margin: 10px;
